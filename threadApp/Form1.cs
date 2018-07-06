@@ -34,7 +34,7 @@ namespace threadApp
 
         private void btnExecute2_Click(object sender, EventArgs e)
         {
-            Thread threadExe2 = new Thread(delegate() 
+            Thread threadExe2 = new Thread(()=>//limbda表达式写法 
             {
                 for (int i = 1; i < 51; i++)
                 {
