@@ -1,0 +1,10 @@
+F:\lv2015\vsDemo\asyncApp\threadApp\bin\Debug\threadApp.exe.config
+F:\lv2015\vsDemo\asyncApp\threadApp\bin\Debug\threadApp.exe
+F:\lv2015\vsDemo\asyncApp\threadApp\bin\Debug\threadApp.pdb
+F:\lv2015\vsDemo\asyncApp\threadApp\obj\Debug\threadApp.csprojAssemblyReference.cache
+F:\lv2015\vsDemo\asyncApp\threadApp\obj\Debug\threadApp.FrmThread.resources
+F:\lv2015\vsDemo\asyncApp\threadApp\obj\Debug\threadApp.Properties.Resources.resources
+F:\lv2015\vsDemo\asyncApp\threadApp\obj\Debug\threadApp.csproj.GenerateResource.cache
+F:\lv2015\vsDemo\asyncApp\threadApp\obj\Debug\threadApp.csproj.CoreCompileInputs.cache
+F:\lv2015\vsDemo\asyncApp\threadApp\obj\Debug\threadApp.exe
+F:\lv2015\vsDemo\asyncApp\threadApp\obj\Debug\threadApp.pdb
