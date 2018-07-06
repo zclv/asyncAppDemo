@@ -31,7 +31,7 @@ namespace crossThreadControl
                         //Invoke() 方法第一个参数是返回值为void的委托，第二个是给委托对应的方法传递参数的
                         this.lblTaskRes1.Invoke(new Action<string>(p=> { this.lblTaskRes1.Text = p; }),a.ToString());
                     }
-                    Thread.Sleep(200);
+                    Thread.Sleep(200);//当前这个Thread为主程序的线程
                 }
             });
             objThread.IsBackground = true;
@@ -51,7 +51,7 @@ namespace crossThreadControl
                         //Invoke() 方法第一个参数是返回值为void的委托，第二个是给委托对应的方法传递参数的
                         this.lblTaskRes2.Invoke(new Action<string>(p => { this.lblTaskRes2.Text = p; }), a.ToString());
                     }
-                    Thread.Sleep(200);
+                    Thread.Sleep(200);//当前这个Thread为主程序的线程
                 }
             });
             objThread.IsBackground = true;
