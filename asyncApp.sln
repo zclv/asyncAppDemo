@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threadApp", "threadApp\thre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crossThreadControl", "crossThreadControl\crossThreadControl.csproj", "{C2B9BBFC-1FE0-4D47-8220-B156FB558AEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegateSql", "delegateSql\delegateSql.csproj", "{15944F31-5026-4D76-8B46-F04EE7046DF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C2B9BBFC-1FE0-4D47-8220-B156FB558AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2B9BBFC-1FE0-4D47-8220-B156FB558AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2B9BBFC-1FE0-4D47-8220-B156FB558AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15944F31-5026-4D76-8B46-F04EE7046DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15944F31-5026-4D76-8B46-F04EE7046DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15944F31-5026-4D76-8B46-F04EE7046DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15944F31-5026-4D76-8B46-F04EE7046DF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
