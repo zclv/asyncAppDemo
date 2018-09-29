@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crossThreadControl", "cross
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegateSql", "delegateSql\delegateSql.csproj", "{15944F31-5026-4D76-8B46-F04EE7046DF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProjectAOP", "MyProjectAOP\MyProjectAOP.csproj", "{9FDD5A3B-7194-439D-AF56-85408CC7A422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{15944F31-5026-4D76-8B46-F04EE7046DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15944F31-5026-4D76-8B46-F04EE7046DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15944F31-5026-4D76-8B46-F04EE7046DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDD5A3B-7194-439D-AF56-85408CC7A422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDD5A3B-7194-439D-AF56-85408CC7A422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDD5A3B-7194-439D-AF56-85408CC7A422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDD5A3B-7194-439D-AF56-85408CC7A422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
