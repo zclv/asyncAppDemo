@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegateSql", "delegateSql\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProjectAOP", "MyProjectAOP\MyProjectAOP.csproj", "{9FDD5A3B-7194-439D-AF56-85408CC7A422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebApiAOP", "MyWebApiAOP\MyWebApiAOP.csproj", "{D65F35BD-4894-4F4B-B6EE-3987AD434BA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{9FDD5A3B-7194-439D-AF56-85408CC7A422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FDD5A3B-7194-439D-AF56-85408CC7A422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FDD5A3B-7194-439D-AF56-85408CC7A422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65F35BD-4894-4F4B-B6EE-3987AD434BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65F35BD-4894-4F4B-B6EE-3987AD434BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65F35BD-4894-4F4B-B6EE-3987AD434BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65F35BD-4894-4F4B-B6EE-3987AD434BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
