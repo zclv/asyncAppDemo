@@ -1,0 +1,16 @@
+/MyProjectAOP/bin
+/MyWebApiAOP/bin
+/FrmAsyncApp/bin
+/crossThreadControl/bin
+/asyncAppCallback/bin
+/SOA.AOP.WebApi/bin
+/threadApp/bin
+/threadApp/obj
+/MyWebApiAOP/obj
+/crossThreadControl/obj
+/asyncAppCallback/obj
+/delegateSql/obj
+/FrmAsyncApp/obj
+/MyProjectAOP/obj
+/packages
+/SOA.AOP.WebApi/obj

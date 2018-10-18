@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2F92E429-6225-4431-B7B2-0539399C75F2}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>FrmAsyncApp</RootNamespace>
     <AssemblyName>FrmAsyncApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,6 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DecoratorByAbstract\AbstractPhone.cs" />
+    <Compile Include="DecoratorByAbstract\DecoratorPhone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DecoratorByAbstract\DecoratorPhone.Designer.cs">
+      <DependentUpon>DecoratorPhone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DecoratorByAbstract\DecoratorPhonePlay.cs" />
+    <Compile Include="DecoratorByInterface\DecoratorIPhone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DecoratorByInterface\DecoratorIPhone.Designer.cs">
+      <DependentUpon>DecoratorIPhone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DecoratorByInterface\DecoratorPhonePlay.cs" />
+    <Compile Include="DecoratorByInterface\IPhone.cs" />
+    <Compile Include="DecoratorByInterface\XiaomiPhone.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +73,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DecoratorByAbstract\XiaomiPhone.cs" />
+    <EmbeddedResource Include="DecoratorByAbstract\DecoratorPhone.resx">
+      <DependentUpon>DecoratorPhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DecoratorByInterface\DecoratorIPhone.resx">
+      <DependentUpon>DecoratorIPhone.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,5 +105,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
