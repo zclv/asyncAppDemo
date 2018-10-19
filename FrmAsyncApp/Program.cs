@@ -1,4 +1,5 @@
 ﻿using FrmAsyncApp.DecoratorByInterface;
+using FrmAsyncApp.Observer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace FrmAsyncApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DecoratorIPhone());
+            Application.Run(new PhoneObserver());
         }
     }
 }
