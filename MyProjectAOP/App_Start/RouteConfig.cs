@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MyProjectAOP.App_Start;
+using MyProjectAOP.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +20,15 @@ namespace MyProjectAOP
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+        }
+        public static void RegisterRefuse(RouteCollection routes)
+        {
+            routes.Add("myRoute",new MyRoute());
+        }
+        public static void RegisterMyRoute(RouteCollection routes)
+        {
+            Route route = new Route("MyRoute/{other}",new MyRouteHandler());
+            RouteTable.Routes.Add(route); 
         }
     }
 }

@@ -14,6 +14,8 @@ namespace MyProjectAOP
         {
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            RouteConfig.RegisterRefuse(RouteTable.Routes);
+            RouteConfig.RegisterMyRoute(RouteTable.Routes);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
