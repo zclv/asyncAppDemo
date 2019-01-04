@@ -42,7 +42,7 @@ namespace delegateSql
             using (SqlConnection conn = new SqlConnection())
             {
                 conn.Open();
-                SqlDataReader reader =null;
+                SqlDataReader reader = null;
                 while (reader.Read())
                 {
                     foreach (var item in typeof(T).GetProperties())
